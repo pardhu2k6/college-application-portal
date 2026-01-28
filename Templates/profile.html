@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Aditya University | Create Profile</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="profile.css" />
+    </head>
+    <body>
+        <header class="nav">
+            <div class="container nav-inner">
+                <div class="brand">
+                    <div class="brand-mark">AU</div>
+                    <div>
+                        <div>Aditya University</div>
+                        <small>Admissions & student onboarding</small>
+                    </div>
+                </div>
+                <nav class="nav-links">
+                    <a href="index.html#portal">Portal</a>
+                    <a href="index.html#programs">Programs</a>
+                    <a href="index.html#deadlines">Deadlines</a>
+                    <a href="index.html#help">Help</a>
+                </nav>
+                <div class="nav-actions">
+                    <a class="button ghost" href="index.html">Back to portal</a>
+                    <a class="button primary" href="apply.html">Continue to application</a>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="container profile">
+                <div class="profile-header">
+                    <div>
+                        <h2 class="section-title">Create applicant profile</h2>
+                        <p class="section-subtitle">
+                            Create your profile first. You’ll use this to log in and track your application status.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="profile-card">
+                    <form class="form" action="#" method="post">
+                        <div class="row">
+                            <label class="field" style="flex: 1; min-width: 220px;">
+                                <span>Full name</span>
+                                <input type="text" name="fullName" placeholder="e.g., Priya Sharma" required />
+                            </label>
+                            <label class="field" style="flex: 1; min-width: 220px;">
+                                <span>Email address</span>
+                                <input type="email" name="email" placeholder="you@example.com" required />
+                            </label>
+                        </div>
+
+                        <div class="row">
+                            <label class="field" style="flex: 1; min-width: 220px;">
+                                <span>Phone number</span>
+                                <input type="tel" name="phone" placeholder="+91-XXXXXXXXXX" required />
+                            </label>
+                            <label class="field" style="flex: 1; min-width: 220px;">
+                                <span>Create password</span>
+                                <input type="password" name="password" placeholder="Minimum 8 characters" required />
+                            </label>
+                        </div>
+
+                        <div class="row">
+                            <label class="field" style="flex: 1; min-width: 220px;">
+                                <span>Confirm password</span>
+                                <input type="password" name="confirmPassword" placeholder="Re-enter password" required />
+                            </label>
+                            <label class="field" style="flex: 1; min-width: 220px;">
+                                <span>Preferred intake</span>
+                                <input type="text" name="intake" placeholder="2026" required />
+                            </label>
+                        </div>
+
+                        <label class="field">
+                            <span>Program of interest</span>
+                            <input type="text" name="interest" placeholder="B.Tech Computer Science" required />
+                        </label>
+
+                        <div class="row" style="justify-content: space-between;">
+                            <label class="row" style="gap: 10px;">
+                                <input type="checkbox" name="terms" required />
+                                <span class="muted">I agree to the terms and privacy policy.</span>
+                            </label>
+                            <div class="row" style="gap: 10px;">
+                                <button class="button ghost" type="reset">Clear</button>
+                                <a class="button primary" href="apply.html">Create profile & continue</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="profile-note">
+                    Already created a profile? <a href="Sdash.html">Go to dashboard →</a>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container footer-grid">
+                <div>
+                    <div class="brand">
+                        <div class="brand-mark">AU</div>
+                        <div>
+                            <div>Aditya University</div>
+                            <small>Admissions Portal</small>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h5>Admissions</h5>
+                    <a href="index.html#programs">Programs</a>
+                    <a href="index.html#deadlines">Deadlines</a>
+                    <a href="apply.html">Apply</a>
+                </div>
+                <div>
+                    <h5>Support</h5>
+                    <a href="index.html#faq">FAQ</a>
+                    <a href="index.html#help">Contact us</a>
+                </div>
+                <div>
+                    <h5>Legal</h5>
+                    <a href="#">Privacy policy</a>
+                    <a href="#">Terms of service</a>
+                </div>
+            </div>
+            <div class="container footer-note" aria-live="polite"></div>
+        </footer>
+    </body>
+</html>
