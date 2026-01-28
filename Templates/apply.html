@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Aditya University | Application Form</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+		<link rel="stylesheet" href="appllycss.css" />
+	</head>
+	<body>
+		<header class="nav">
+			<div class="container nav-inner">
+				<div class="brand">
+					<div class="brand-mark">AU</div>
+					<div>
+						<div>Aditya University</div>
+						<small>Admissions & student onboarding</small>
+					</div>
+				</div>
+				<nav class="nav-links">
+					<a href="index.html#portal">Portal</a>
+					<a href="index.html#programs">Programs</a>
+					<a href="index.html#deadlines">Deadlines</a>
+					<a href="index.html#help">Help</a>
+				</nav>
+				<div class="nav-actions">
+					<a class="button ghost" href="index.html">Back to portal</a>
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<section class="container">
+				<h2 class="section-title">Application form</h2>
+				<p class="section-subtitle">
+					Fill out the details below. You can save and finish later from your applicant dashboard.
+				</p>
+
+				<div class="panel">
+					<div class="panel-head">
+						<h3 class="panel-title">Applicant information</h3>
+						<span class="pill soft">Step 1 of 4</span>
+					</div>
+
+					<form class="form" action="#" method="post">
+						<div class="row">
+							<label class="field" style="flex: 1; min-width: 220px;">
+								<span>First name</span>
+								<input type="text" name="firstName" placeholder="e.g., Priya" required />
+							</label>
+							<label class="field" style="flex: 1; min-width: 220px;">
+								<span>Last name</span>
+								<input type="text" name="lastName" placeholder="e.g., Sharma" required />
+							</label>
+						</div>
+
+						<div class="row">
+							<label class="field" style="flex: 1; min-width: 240px;">
+								<span>Email address</span>
+								<input type="email" name="email" placeholder="you@example.com" required />
+							</label>
+							<label class="field" style="flex: 1; min-width: 200px;">
+								<span>Mobile number</span>
+								<input type="tel" name="phone" placeholder="+91-XXXXXXXXXX" required />
+							</label>
+						</div>
+
+						<div class="row">
+							<label class="field" style="flex: 1; min-width: 200px;">
+								<span>Date of birth</span>
+								<input type="date" name="dob" required />
+							</label>
+							<label class="field" style="flex: 1; min-width: 200px;">
+								<span>Gender</span>
+								<input type="text" name="gender" placeholder="Female / Male / Other" />
+							</label>
+							<label class="field" style="flex: 1; min-width: 200px;">
+								<span>Nationality</span>
+								<input type="text" name="nationality" placeholder="Indian" required />
+							</label>
+						</div>
+
+						<div class="row">
+							<label class="field" style="flex: 1; min-width: 240px;">
+								<span>Address line 1</span>
+								<input type="text" name="addressLine1" placeholder="Street address" required />
+							</label>
+							<label class="field" style="flex: 1; min-width: 240px;">
+								<span>Address line 2</span>
+								<input type="text" name="addressLine2" placeholder="Apartment, suite, etc." />
+							</label>
+						</div>
+
+						<div class="row">
+							<label class="field" style="flex: 1; min-width: 200px;">
+								<span>City</span>
+								<input type="text" name="city" placeholder="Kakinada" required />
+							</label>
+							<label class="field" style="flex: 1; min-width: 180px;">
+								<span>State</span>
+								<input type="text" name="state" placeholder="Andhra Pradesh" required />
+							</label>
+							<label class="field" style="flex: 1; min-width: 140px;">
+								<span>Postal code</span>
+								<input type="text" name="postalCode" placeholder="533001" required />
+							</label>
+						</div>
+
+						<div class="divider"></div>
+
+						<div class="panel-head">
+							<h3 class="panel-title">Program selection</h3>
+							<span class="pill">Step 2 of 4</span>
+						</div>
+
+						<div class="row">
+							<label class="field" style="flex: 1; min-width: 260px;">
+								<span>Level</span>
+								<input type="text" name="level" placeholder="UG / PG / Research" required />
+							</label>
+							<label class="field" style="flex: 1; min-width: 260px;">
+								<span>Program</span>
+								<input type="text" name="program" placeholder="B.Tech Computer Science" required />
+							</label>
+						</div>
+
+						<div class="row">
+							<label class="field" style="flex: 1; min-width: 220px;">
+								<span>Preferred campus</span>
+								<input type="text" name="campus" placeholder="Main campus" />
+							</label>
+							<label class="field" style="flex: 1; min-width: 220px;">
+								<span>Intake</span>
+								<input type="text" name="intake" placeholder="2026" required />
+							</label>
+						</div>
+
+						<div class="divider"></div>
+
+						<div class="panel-head">
+							<h3 class="panel-title">Academic history</h3>
+							<span class="pill warn">Step 3 of 4</span>
+						</div>
+
+						<div class="row">
+							<label class="field" style="flex: 1; min-width: 260px;">
+								<span>Highest qualification</span>
+								<input type="text" name="qualification" placeholder="Class 12 / Bachelor’s" required />
+							</label>
+							<label class="field" style="flex: 1; min-width: 220px;">
+								<span>Board / University</span>
+								<input type="text" name="board" placeholder="CBSE / JNTU" required />
+							</label>
+						</div>
+
+						<div class="row">
+							<label class="field" style="flex: 1; min-width: 220px;">
+								<span>Year of completion</span>
+								<input type="number" name="completionYear" placeholder="2025" required />
+							</label>
+							<label class="field" style="flex: 1; min-width: 220px;">
+								<span>Aggregate score (%)</span>
+								<input type="number" name="score" placeholder="85" required />
+							</label>
+						</div>
+
+						<div class="divider"></div>
+
+						<div class="panel-head">
+							<h3 class="panel-title">Uploads & confirmation</h3>
+							<span class="pill">Step 4 of 4</span>
+						</div>
+
+						<div class="row">
+							<label class="field" style="flex: 1; min-width: 260px;">
+								<span>Identity proof (PDF/JPG)</span>
+								<input type="file" name="idProof" accept=".pdf,.jpg,.jpeg,.png" />
+							</label>
+							<label class="field" style="flex: 1; min-width: 260px;">
+								<span>Academic transcripts</span>
+								<input type="file" name="transcripts" accept=".pdf,.jpg,.jpeg,.png" />
+							</label>
+						</div>
+
+						<label class="field">
+							<span>Additional notes (optional)</span>
+							<input type="text" name="notes" placeholder="Tell us anything important." />
+						</label>
+
+						<div class="row" style="justify-content: space-between;">
+							<label class="row" style="gap: 10px;">
+								<input type="checkbox" name="confirm" required />
+								<span class="muted">I confirm the information provided is accurate.</span>
+							</label>
+							<div class="row" style="gap: 10px;">
+								<button class="button ghost" type="reset">Clear</button>
+								<button class="button primary" type="submit">Submit application</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<div class="container footer-grid">
+				<div>
+					<div class="brand">
+						<div class="brand-mark">AU</div>
+						<div>
+							<div>Aditya University</div>
+							<small>Admissions Portal</small>
+						</div>
+					</div>
+				</div>
+				<div>
+					<h5>Admissions</h5>
+					<a href="index.html#programs">Programs</a>
+					<a href="index.html#deadlines">Deadlines</a>
+					<a href="index.html#help">Support</a>
+				</div>
+				<div>
+					<h5>Support</h5>
+					<a href="index.html#faq">FAQ</a>
+					<a href="index.html#help">Contact us</a>
+				</div>
+				<div>
+					<h5>Legal</h5>
+					<a href="#">Privacy policy</a>
+					<a href="#">Terms of service</a>
+				</div>
+			</div>
+			<div class="container footer-note" aria-live="polite"></div>
+		</footer>
+	</body>
+</html>
